@@ -1,40 +1,40 @@
-    # bfstore Platform GitOps
+# bfstore Platform GitOps
 
-    GitOps deployment configuration for bfstore services, including Kubernetes manifests, environment overlays, release workflows, and operational deployment patterns.
+GitOps deployment configuration for bfstore services, including Kubernetes manifests, environment overlays, release workflows, and operational deployment patterns.
 
-    ## Repository status
+## Repository status
 
-    This repository is an early bfstore portfolio repository. It is currently being set up with initial structure, documentation, and direction before implementation work begins.
+This repository is an early bfstore portfolio repository. It is currently being set up with initial structure, documentation, and direction before implementation work begins.
 
-    ## Purpose
+## Purpose
 
-    This repository will hold the desired deployment state for bfstore services and platform components running on Kubernetes.
+This repository will hold the desired deployment state for bfstore services and platform components running on Kubernetes.
 
-    bfstore is a cloud-native ecommerce platform for developer-themed homeware. This repository is part of the wider bfstore portfolio and is intended to demonstrate senior platform engineering, DevSecOps, Kubernetes, cloud infrastructure, and developer experience capability.
+bfstore is a cloud-native ecommerce platform for developer-themed homeware. This repository is part of the wider bfstore portfolio and is intended to demonstrate senior platform engineering, DevSecOps, Kubernetes, cloud infrastructure, and developer experience capability.
 
-    ## Scope
+## Scope
 
-    This repository will cover:
+This repository will cover:
 
-    - Kubernetes application definitions
+- Kubernetes application definitions
 - Environment overlays
 - GitOps deployment workflows
 - Release promotion patterns
 - Ingress, gateway, and service routing configuration
 - Operational manifests for observability and platform services
 
-    ## Out of scope
+  ## Out of scope
 
-    This repository will not own:
+  This repository will not own:
 
-    - Application source code
+- Application source code
 - Cloud infrastructure provisioning
 - Reusable Terraform modules
 - Security policy source-of-truth where policies belong in governance repos
 
     ## Suggested repository structure
 
-    - `apps/                 # bfstore application deployment definitions`
+- `apps/                 # bfstore application deployment definitions`
 - `platform/             # Shared platform component manifests`
 - `envs/                 # Environment overlays`
 - `docs/                 # GitOps operating model and ADRs`
@@ -42,7 +42,7 @@
 
     ## Initial roadmap
 
-    - [ ] Select initial GitOps tool direction
+- [ ] Select initial GitOps tool direction
 - [ ] Define local, dev, staging, and production environment layout
 - [ ] Add first service deployment pattern
 - [ ] Add health, rollout, and rollback guidance
