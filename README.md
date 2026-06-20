@@ -1,5 +1,7 @@
 # bfstore Platform GitOps
 
+![bfstore - Borough Furniture Store logo](bfstore_gitops.png)
+
 GitOps deployment configuration for bfstore services, including Kubernetes manifests, environment overlays, release workflows, and operational deployment patterns.
 
 ## Repository status
